@@ -14,3 +14,7 @@
 
 #### pip3 install paho.mqtt 
 #### apt-get install tkinter
+
+
+## Sources: - 
+* https://core-electronics.com.au/tutorials/getting-started-with-home-automation-using-mqtt.html
