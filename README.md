@@ -16,5 +16,15 @@
 #### apt-get install tkinter
 
 
+### Run detect:- 
+
+* Connect the PIR to the raspi, where GND with pin 6 or any GND pin on the pi, and specify the GPIO pin you want to read the motion from lastly connect the VCC pin to the 5V on the pi, which is the 2nd pin.
+* For the buzzer it simply takes a GND for its lower leg and the GPIO pin for the positive longer leg
+* For the second pi, simply have the LED attached to it, by connecting a GPIO pin and a GND.
+
+* let the client listen to any published event by running python3 mqtt_client.py
+* run python3 detect.py for the sensor to start detecting and publishing events when needed
+
+
 ## Sources: - 
 * https://core-electronics.com.au/tutorials/getting-started-with-home-automation-using-mqtt.html
