@@ -25,6 +25,10 @@
 * let the client listen to any published event by running python3 mqtt_client.py
 * run python3 detect.py for the sensor to start detecting and publishing events when needed
 
+### Demoing detect:- 
+https://www.youtube.com/watch?v=e12QQH3Wg9Y&t=14s
+
+### prototype 
 
 ## Sources: - 
 * https://core-electronics.com.au/tutorials/getting-started-with-home-automation-using-mqtt.html
